@@ -1,0 +1,72 @@
+@import url ('https://github.com/tyreil/final_spring_19/blob/master/assets/fonts/firasanscondensed_bold/FiraSansCondensed-Bold-webfont.woff');
+
+section#gallery{
+  display: grid;
+  grid-template-columns:(12,1fr);
+  grid-template-row:(11;1fr);
+  grid-gap:5px;
+  height: 100vh;
+  text-align:left; 
+}
+
+h1{
+   grid-column-start:5;
+  grid-column-end:10;
+  grid-row-start:1;
+  grid-row-end:3;
+  font-size:6em;
+  color: #014262;
+  font-family:sans-serif;
+  z-index:6;
+}
+
+h2{
+  grid-column-start:6;
+  grid-column-end:11;
+  grid-row-start:3;
+  grid-row-end:6;
+  color: #014262;
+}
+
+p{
+  grid-column-start:6;
+  grid-column-end:11;
+  grid-row-start:5;
+  grid-row-end:8;
+  color: #4E4E4E
+}
+
+#serfer{
+  grid-column-start:5;
+  grid-column-end:7;
+  grid-row-start:8;
+  grid-row-end:11;
+  background-size:;
+  width:20vh;
+  background-repeat: repeat-y;
+}
+
+#palm-tree{
+  grid-column-start:7;
+  grid-column-end:8;
+  grid-row-start:8;
+  grid-row-end:11;
+  width:20vh;
+}
+
+#girl{
+  grid-column-start:8;
+  grid-column-end:11;
+  grid-row-start:8;
+  grid-row-end:11;
+  width:20vh;
+  background-repeat: repeat-y;
+}
+
+#island{
+  grid-column-start:1;
+  grid-column-end:6;
+  grid-row-start:1;
+  grid-row-end:11;
+  width:70vh;
+}
